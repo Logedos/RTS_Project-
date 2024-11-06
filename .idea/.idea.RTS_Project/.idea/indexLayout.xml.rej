@@ -1,0 +1,9 @@
+diff a/.idea/.idea.RTS_Project/.idea/indexLayout.xml b/.idea/.idea.RTS_Project/.idea/indexLayout.xml	(rejected hunks)
+@@ -24,7 +24,6 @@
+       <Path>.idea</Path>
+       <Path>Library</Path>
+       <Path>Logs</Path>
+-      <Path>Temp</Path>
+       <Path>UserSettings</Path>
+       <Path>obj</Path>
+     </explicitExcludes>

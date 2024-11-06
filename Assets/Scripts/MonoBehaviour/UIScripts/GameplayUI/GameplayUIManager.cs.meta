@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/ECS/Events/Unit/OnFormated.cs.meta
+guid: f0de72652d8d0ae48b7d7756c06779df
+========
+guid: dfcc9e5709e22d2439990b76b488ad57
+>>>>>>>> Stashed changes:Assets/Scripts/MonoBehaviour/UIScripts/GameplayUI/GameplayUIManager.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

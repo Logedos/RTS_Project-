@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c43d17f2af53a488bfa0f5c0c60154, type: 3}
+  m_Name: ObjectData
+  m_EditorClassIdentifier: 
+  objectDatas:
+  - <Name>k__BackingField: Castle
+    <ID>k__BackingField: 0
+    <Size>k__BackingField: {x: 3, y: 3}
+    <Prefab>k__BackingField: {fileID: 4128145501935134378, guid: 41c2da9df63a2ec49806250c9d4de44c, type: 3}
+  - <Name>k__BackingField: Barrack
+    <ID>k__BackingField: 1
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 7437798438212688316, guid: 2e2e0e00c5ced7c47ab9275f5b86e838, type: 3}
+  - <Name>k__BackingField: Sawnill
+    <ID>k__BackingField: 2
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 2550293355322570177, guid: 2d9d6cc7e9cf3ae4a8595deb813314b9, type: 3}
+  - <Name>k__BackingField: Mill
+    <ID>k__BackingField: 3
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 6049597466043320485, guid: 26db923e9b398d047b75ea358cc1c1b9, type: 3}
+  - <Name>k__BackingField: Market
+    <ID>k__BackingField: 4
+    <Size>k__BackingField: {x: 3, y: 2}
+    <Prefab>k__BackingField: {fileID: 5155802298278316488, guid: e4a4b95df920dea4a9cbd79c2245b93b, type: 3}
+  - <Name>k__BackingField: Ambar
+    <ID>k__BackingField: 5
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 4274796642617838676, guid: 912b4395e5ccb094fbb4376dbc8dc2fe, type: 3}
+  - <Name>k__BackingField: Mine
+    <ID>k__BackingField: 6
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 1819564876765242198, guid: dc74516c98406e745ab9af54318698b4, type: 3}
+  - <Name>k__BackingField: GoldMine
+    <ID>k__BackingField: 7
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 6686758991102637126, guid: 2d594bd9c88a72441b10ff48bca2f5e1, type: 3}

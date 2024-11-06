@@ -1,0 +1,34 @@
+{
+    "resourcesList": [
+        {
+            "currentAmount": 1074,
+            "resType": 0
+        },
+        {
+            "currentAmount": 2561,
+            "resType": 1
+        },
+        {
+            "currentAmount": 5516,
+            "resType": 2
+        },
+        {
+            "currentAmount": 2548,
+            "resType": 1
+        },
+        {
+            "currentAmount": 1000,
+            "resType": 2
+        },
+        {
+            "currentAmount": 905,
+            "resType": 3
+        },
+        {
+            "currentAmount": 7,
+            "resType": 4
+        }
+    ],
+    "maxAmount": 14000,
+    "maxPopulation": 10
+}

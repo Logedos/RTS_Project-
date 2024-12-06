@@ -76,6 +76,16 @@ public class CameraMovement : MonoBehaviour
             rotateStartPosition = rotateCurrentPosition;
 
             transform.rotation *= Quaternion.Euler(Vector3.up * (-difference.x / 4f));
+            
+            TestEnum testEnum = (TestEnum)System.Enum.Parse(typeof(TestEnum), 3.ToString());
         }
     }
+}
+
+enum TestEnum
+{
+    Value1,
+    Value2,
+    Value3,
+    Value4
 }

@@ -56,7 +56,7 @@ public class TimeManager : MonoBehaviour
         dayCountShower.text = dayChangerData.dayNumber.ToString();
 
         FinishAllBuildings();
-        Debug.Log("FinishAllBuildings");
+        ResourceShowerManager.UpdateResInfo();
     }
     
     private IEnumerator WaitForAddRes()

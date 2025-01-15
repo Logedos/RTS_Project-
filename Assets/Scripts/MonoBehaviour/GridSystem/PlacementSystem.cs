@@ -87,6 +87,17 @@ public class PlacementSystem : MonoBehaviour
         {
             StopPlacement();
         }
+       // gameBuilding.GetComponent<MeshRenderer>().enabled = true;
+        
+        Storage storage = JsonSaver.GetResources();
+
+        storage.resourcesList[0].currentAmount -= 50;
+        storage.resourcesList[1].currentAmount -= 50;
+        storage.resourcesList[3].currentAmount -= 20;
+        
+        JsonSaver.SaveResources(storage);
+        
+        ResourceShowerManager.UpdateResInfo();
     }
 
     private bool CheckPlacementValidity(Vector3Int gridPos, int i)

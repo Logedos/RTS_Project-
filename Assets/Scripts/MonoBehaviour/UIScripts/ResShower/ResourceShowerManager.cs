@@ -29,7 +29,7 @@ public class ResourceShowerManager : MonoBehaviour
       UpdateResInfo(); // обновление состояния ремурсов в начале игры
       GameHandler.TimeToAddRes += UpdateResInfo;
    }
-
+ 
    public static void UpdateResInfo()
    {
       Storage storage = JsonSaver.GetResources();
@@ -74,7 +74,7 @@ public class ResourceShowerManager : MonoBehaviour
          {
             oldValue = int.Parse(_populationUI.text.Split(" ")[0]);
             _populationUI.text = $"{resource.currentAmount.ToString()} / {storage.maxPopulation}";
-            ShowResChange(ResType.Population, resource.currentAmount - oldValue);
+            Debug.Log("population was chaned!");
          }
       }
 

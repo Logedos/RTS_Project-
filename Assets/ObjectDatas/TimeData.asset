@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a010f67f9154fad44805e18543f957fa, type: 3}
   m_Name: TimeData
   m_EditorClassIdentifier: 
-  secondPerDay: 300
-  dayNumber: 1
+  secondPerDay: 30
+  dayNumber: 5

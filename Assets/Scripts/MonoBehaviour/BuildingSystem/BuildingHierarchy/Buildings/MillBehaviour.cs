@@ -25,25 +25,5 @@ public class MillBehaviour : MiningBuilding
       Level = level;
       Name = name;
    }
-
-   private List<Person> _class = new List<Person>()
-   {
-      new Person(15, "Anton", "Gandon"),
-      new Person(18, "Vasa", "Pupka"),
-      new Person(10, "Foma", "Tura")
-   };
 }
 
-public class Person
-{
-   private int age;
-   private string Name;
-   private string SurName;
-   
-   public Person(int age, string name, string surName)
-   {
-      this.age = age;
-      Name = name;
-      SurName = surName;
-   }
-}

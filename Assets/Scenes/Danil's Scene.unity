@@ -18475,7 +18475,7 @@ MonoBehaviour:
   dayChangerData: {fileID: 11400000, guid: a8048ebad048fcc40b355f6117e3a732, type: 2}
   dayCountShower: {fileID: 744897265}
   clockText: {fileID: 631469104}
-  timeStepToAddRes: 30
+  timeStepToAddRes: 10
   currentTime: 0
   buildingsToBuild: []
 --- !u!4 &1840945022
@@ -20005,8 +20005,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.6806448, b: 0.31132066, a: 1}
-  m_Intensity: 1.2
+  m_Color: {r: 0.98490566, g: 0.9242132, b: 0.8529655, a: 1}
+  m_Intensity: 1.12
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -20015,7 +20015,7 @@ Light:
     m_Type: 2
     m_Resolution: 2
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.52
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -20045,7 +20045,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
